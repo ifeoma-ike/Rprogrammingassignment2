@@ -1,5 +1,5 @@
 ## these functions will cache a value for a matrix and
-##then create a function to inverse a matrix which utlizes cached matrixes
+##then create a function to inverse a matrix which utlizes cached matrices
 
 ## makeCacheMatrix creates a function that will make a matrix and cache the object
 
@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
   get<- function() x
   setinverse<- function(inverse) inv<<- inverse
   getinverse<- function() inv
-  list(set= set, get=get, setinverse=setinverse, getinverse= getinverse)
+  list(set= set, get= get, setinverse= setinverse, getinverse= getinverse)
 }
 
 
